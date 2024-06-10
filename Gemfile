@@ -1,6 +1,5 @@
-source 'https://rubygems.org'
-gem 'bundler'
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'wdm', '>= 0.1.0'
-gem "webrick", "~> 1.7"
+source "https://rubygems.org" # source "https://gems.ruby-china.com"
+
+gemspec
+
+gem "github-pages", group: :jekyll_plugins
